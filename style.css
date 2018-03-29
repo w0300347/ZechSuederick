@@ -1,7 +1,7 @@
 body{
     background:gray;
 }
-h1{
-    font-size: 200px;
+body > h1{
+    font-size: 400px;
     text-align: center;
 }
