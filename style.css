@@ -1,5 +1,5 @@
 body{
-    background:gray;
+    background:url("a.gif");
 }
 body > h1{
     font-size: 400px;
