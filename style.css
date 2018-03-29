@@ -4,6 +4,7 @@ body{
 body > h1{
     font-size: 400px;
     text-align: center;
+    color:lightskyblue;
 }
 
 html{
