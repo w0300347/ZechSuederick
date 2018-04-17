@@ -1,0 +1,86 @@
+@charset "utf-8";
+
+/*home page layout*/
+section#welcome{
+	padding-top:1%;
+	padding-bottom:1%;
+	background: rgba(0, 16, 55, 0.7);
+ }
+section#main{
+	min-height:100vh;
+	display:flex;
+	padding-top:10px;
+	padding-left:10%;
+	padding-right:10%;
+ }
+section#profilePic{
+	padding-top:10%;
+	width:60%;
+	float:left;
+}
+section#about{
+	padding-top:10%;
+	padding-left:50px;
+	float:right;
+}
+/*resume page layout*/
+section#resume{
+	width:60%;
+	padding-top:5%;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+}
+/*goals page layout*/
+section#short{
+	padding-top:10%;
+	padding-bottom:10%;
+	width:100%
+}
+section#long{
+	padding-top:10%;
+	padding-bottom:10%;
+	width:100%;
+}
+/*skills page layout*/
+section#skillsTech{
+	padding-top:10%;
+	padding-bottom:10%;
+	margin-left:auto;
+	margin-right:auto;
+}
+/*contact page layout*/
+section#contact{
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:10%;
+	padding-bottom:10%;
+	text-align:center;
+}
+/*footer layout*/
+footer{
+	position:relative;
+	bottom:0;
+	text-align:center;
+	width:100%;
+}
+/*media query for mobile*/
+@media only screen and (max-width: 480px){
+	section#main{
+		display:block;
+		flex-direction:column;
+		align-items:center;
+		padding-top:10px;
+		padding-bottom:5%;
+	}
+	section#resume{
+		width:100%;
+	}
+	section#profilePic img{
+		margin-left:55px;
+	}
+	section#about{
+		padding:0;
+	}
+	
+}
