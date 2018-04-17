@@ -1,0 +1,114 @@
+/*nav bar*/
+header > nav {
+	display:table;
+	width: 100%;
+	box-shadow: 9px 8px 16px 0px rgba(0,0,0,0.7);
+}
+header > nav > ul {
+	display: table-row;
+	margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: rgba(0, 16, 61, 0.8);
+}
+header > nav > ul > li {
+	display: table-cell;
+    text-align: center;
+    padding: 14px 10px;
+    text-decoration: none;
+}
+header > nav a {
+	text-decoration: none;
+	color: white;
+	display: block;
+}
+header > nav > ul > li a:hover {
+	color: gray;
+}
+section#navicon{
+	display:none;
+}
+/*background*/
+body{
+	background-image:url("bg.jpg");
+}
+/*main column background*/
+section#main{
+	background: rgba(192,192,192, 0.7);
+}
+/*home page styles*/
+section#welcome{
+	text-shadow: 1px 2px #585858;
+	font-size:40px;
+	text-align:center;
+	background: rgba(0, 16, 55, 0.7);
+}
+section#about{
+	font-size:17px;
+}
+ img{
+	width:100%;
+	height:auto;
+	box-shadow: 9px 8px 16px 0px rgba(0,0,0,0.7);
+}
+/*contact page styles*/
+section#contact h1{
+	text-shadow: 1px .05px #585858;
+	font-size:30px;
+	text-align:center;
+}
+section#contact a{
+	font-size:17px;
+	color:black;
+}
+/*skills page styles*/
+section#skillsTech h1{
+	text-shadow: 1px .05px #585858;
+	font-size:30px;
+	text-align:center;
+}
+section#skillsTech{
+	font-size:17px;
+}
+/*goals page styles*/
+section#short h1{
+	text-shadow: 1px .05px #585858;
+	font-size:30px;
+}
+section#short{
+	font-size:17px;
+}
+section#long h1{
+	text-shadow: 1px .05px #585858;
+	font-size:30px;
+}
+section#long{
+	font-size:17px;
+}
+/*footer styles*/
+footer{
+	background: rgba(0, 16, 61, 0.8);
+	box-shadow: 9px 8px 16px 0px rgba(0,0,0,0.7);
+}
+@media only screen and (max-width: 480px){
+	header > nav{
+		display:none;
+	}
+	header > nav ul{
+	    background: rgba(0, 16, 61);
+	}
+	section#navicon{
+		display:block;
+		width:15%;
+	}
+	section#navicon img{
+		box-shadow: 9px 8px 16px 0px rgba(0,0,0,0);
+	}
+	section#navicon:hover + header > nav{
+		display:table;
+	}
+	header > nav:hover{
+		display:block;
+	}
+		
+}
